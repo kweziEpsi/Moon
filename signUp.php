@@ -9,6 +9,7 @@ $gender="";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $first_name = test_input($_POST["first_name"]);
   $last_name = test_input($_POST["last_name"]);
+  $username = test_input($_POST["username"]);
   $email = test_input($_POST["email"]);
   $gender = test_input($_POST["gender"]);
 }
