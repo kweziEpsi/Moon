@@ -4,7 +4,7 @@ $username ="";
 $email ="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = test_input($_POST["username"]);
+  $username = test_input($_POST["username"]);
   $email = test_input($_POST["email"]);
 }
 
