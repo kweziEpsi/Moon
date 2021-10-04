@@ -4,6 +4,7 @@ $first_name = "";
 $last_name = "";
 $username =""; 
 $email ="";
+$phone ="";
 $gender="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -11,6 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $last_name = test_input($_POST["last_name"]);
   $username = test_input($_POST["username"]);
   $email = test_input($_POST["email"]);
+  $phone = test_input($_POST["phone"]);
   $gender = test_input($_POST["gender"]);
 }
 
